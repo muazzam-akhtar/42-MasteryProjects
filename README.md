@@ -26,3 +26,11 @@ P02: DataTable.
 P03: Object Oriented Proramming.
 
 P04: Data Oriented Design.
+
+## computorv1
+
+A program which can take a polynomial equation and solve to find the value of X.
+
+Degrees which can solve the polynomial is 0, 1, 2
+
+For other degrees: it can show the reduced form.
