@@ -8,9 +8,6 @@ class Character(ABC):
         self.first_name = first_name
         self.is_alive = is_alive
 
-    def die(self):
-        pass
-
 
 class Stark(Character):
     """Your docstring for Class"""

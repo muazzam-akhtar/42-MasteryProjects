@@ -34,7 +34,7 @@ class calculator:
         """
         self.vector = [x + object for x in self.vector]
         print(self.vector)
-        return [x for x in self.vector]
+        return self.vector
 
     def __mul__(self, object) -> None:
         """
@@ -43,7 +43,7 @@ class calculator:
         """
         self.vector = [x * object for x in self.vector]
         print(self.vector)
-        return [x for x in self.vector]
+        return self.vector
 
     def __sub__(self, object) -> None:
         """
@@ -52,7 +52,7 @@ class calculator:
         """
         self.vector = [x - object for x in self.vector]
         print(self.vector)
-        return [x for x in self.vector]
+        return self.vector
 
     def __truediv__(self, object) -> None:
         """
@@ -67,6 +67,6 @@ class calculator:
                 raise ZeroDivisionError("Division by zero is not allowed.")
             self.vector = [x / object for x in self.vector]
             print(self.vector)
-            return [x for x in self.vector]
+            return self.vector
         except ZeroDivisionError as error:
             print(ZeroDivisionError.__name__ + ":", error)
