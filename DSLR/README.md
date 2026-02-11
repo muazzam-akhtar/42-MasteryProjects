@@ -1,3 +1,17 @@
+```
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    DSLR                                               :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: hawadh <hawadh@student.42Abudhabi.ae>      +#+  +:+       +#+         #
+#        makhtar <makhtar@student.42Abudhabi.ae>  +#+#+#+#+#+   +#+            #
+#    Created: 2025/10/10 21:33:37 by hawadh            #+#    #+#              #
+#    Updated: 2025/10/15 21:33:37 by hawadh           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+```
+
 # 🧙‍♂️ **Data Science × Logistic Regression**  
 ## **Harry Potter and the Data Scientist**
 
