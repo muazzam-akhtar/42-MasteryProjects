@@ -34,3 +34,13 @@ A program which can take a polynomial equation and solve to find the value of X.
 Degrees which can solve the polynomial is 0, 1, 2
 
 For other degrees: it can show the reduced form.
+
+## DSLR
+
+A program to train a multivariable model with logistic regression.
+
+Features: Data Visualization: histogram with the most homogenuity score, scatter plot of all the houses in feature1 vs feature2, pair plot of 4 features.
+
+Training Model: Normal Batch, Mini Batch Gradient Descent, Stochastic Gradient Descent.
+
+Summary: Provides Average, Standard Deviation, Variance, Skewness, COV, Percentiles, Min, Max.
