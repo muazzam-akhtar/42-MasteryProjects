@@ -327,3 +327,14 @@ By rebuilding the Sorting Hat from scratch, you gain hands‑on experience with:
 A perfect mix of magic and machine learning.
 
 ---
+
+## 🏰 **Data Visualisation**
+
+### **1. Histogram**
+<img width="420" height="222" alt="Histogram" src="https://github.com/user-attachments/assets/2738c38c-1bab-44b5-a9c5-f3d0b0a68c06" />
+
+### **2. Scatter Plot**
+<img width="400" height="400" alt="Scatter Plot" src="https://github.com/user-attachments/assets/63b1e702-701a-4583-8a27-f3f140bc7a5e" />
+
+### **3. Pair Plot**
+<img width="420" height="222" alt="Pair Plot" src="https://github.com/user-attachments/assets/0c7883e4-3895-42d9-b0e5-8ebf806d03e3" />
