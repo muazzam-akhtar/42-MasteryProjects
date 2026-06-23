@@ -1,0 +1,93 @@
+<mxfile host="65bd71144e">
+    <diagram id="ba-lMtS4pGk0mJuBGJZC" name="Page-1">
+        <mxGraphModel dx="1601" dy="1364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Q(s, a) =" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="40" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" parent="1" source="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="246.38461538461536" y="40" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Q(s, a) +&amp;nbsp;𝑎[R(s, a) +&amp;nbsp;𝛾(max(Q(s&#39;, a&#39;))) - Q(s, a)]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="40" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="91" y="70" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Q- value of State&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="90" width="55" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Current Q- value of State&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="90" width="55" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Alpha&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="175" y="130" width="20" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="144.5" y="70" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="70" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="203.5" y="70" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Reward value of State&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="192" y="90" width="38" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="238" y="70" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Gamma&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="229" y="130" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="283.5" y="70" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Maximum value of Change in Q value of Given State&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="256.5" y="90" width="70.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="356" y="70" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Q- value of State&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="90" width="55" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="epsilon = epsilon * 0.995 after the end of each episode" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="180" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="random &amp;lt; epsilon" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="10" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="223.5" y="20" width="26.5" height="12.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Apply direction from the random choice&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="261" y="20" width="149" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="yes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="224.75" width="23.25" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Max of Q values from each direction based on every unique state" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="80" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="shape=stencil(pZhLbhsxDEBPM1tCJCVKWqfpPQLEqY26ceC4v9uXhhdtp4AHD92Nx3wj8U9p8Yf3/dPbbrHyfjmfPu++H54v+8U/LGaH1/3ufLjk0+KPiz+8nM67T+fT19fn2++3p6vk9enL6dv1Cz9unJYipVwxKz//efXxhhwPr/+HzCmzUqIHJZpRosBdDVFnREhvjGhSlBEuCvVQsYGIkf5guxpDnNlqdCnM5yNEIdGkMluNKh3aqorBNVwC2sqlQMKkTkaoDEw4i/ZRpLG46lOCVZ8+aGXonWZUbxLMVt1lMlt1lcmivReaH5G2YnpEF4dESGOaR6PdIAlY2yOzFq7hUlllCJPOYjcJmOeROcgyKjIH2Rote21nRHYDpnkLGZBookzz5rSfN5XCakkdVI8atJbUjHbmj+p4VyYTE8ryo6pUloO1SDDNfdK6mwTsaj7o1JeEQqJjzfF85UE7pzeZmDAWV16lsdruTs8fSVToDzyRuUmwepUErFeutLZ7obOoTdoHbdC5xIJWH8MTmVU6l1hGCfOgmTi0ldJ5Nwl4PrecAOCu8GSpk3acJCqLxCTg2VmHVFZFtcuAa2TsYgLmuTZxVuG0SjCfJwErtTqd+tTEoK2yXsEzp0zm8uy08CwhDY6uMv5eIc+T9+VXE0nbGJPWMWv3v1/XZ7qNnrEO8C1x70Dc1gPblnglX89DtSPxlWu3xFcXCffFyzoOtsQjkPiqT2+JG9tMuW+ZfPh9Df1yOB5vt9h//r++ts5Xtytvf/wF);fillColor=none;strokeColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="-10" y="25.06" width="129.59" height="0.59" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="No" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-32.620000000000005" y="-10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="shape=stencil(lVbLboMwEPwarivb6+c5bf8jUkiDmoaIpK+/rxGHNqwZaW8GZsw+ZtbueHc77a9958ztPo1v/ddwuJ86fuqcGy6nfhruddXxc8e74zj1r9P4cTksz9f9jJxX7+PnvMP3wjNkzExy5mf14mWBn4cLhgcdPPI2PBPzA9wSl224jRTTA96R9dt45vX+TC5t44OIJ5CN2/gU1ukmsnkbX+w6/kI+gHyNqKe15EFELQaTBR1rMTyx8h+BEuhDi5GIQaVajEwZaUMyqvi8LvOqv6DLoyrQKaNyVJyOweSBiVoMT0bXwVnpyjwiFaBdqfXq9gLMl6VZLdShdF/1O5o20t4coKaCSJozJUDwImnvYF3lhPIR2lUSAh7gDQJDWzQIkQLodIOAx5okxOoi4IkGwVMG0mgQImUwbxqETMFuE5wQXyxU0LQRZ1ey8HARYk2OsuboTR6ODYmP5FT7JyogfomvqgD+F/hc6wM6IPEMjxSJj/AyIPGFrAZfJ2DWxF+Ygib+4nX1L1FX/1L7q4qn1geYWB7oZj256uLv2noczufl1vv/+/qaW18tV2R+/gU=);fillColor=none;strokeColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-9.799999999999955" y="24.799999999999955" width="0.6" height="39.7" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="shape=stencil(lVfLctswDPwaXTEkCILAOU3/IzNxak/dOOO4r78vXA1Vg5bQ9ibTuyIB7ALUVB7e909vuwnT++V8+rz7fni+7KfyYUI8vO5358PFnqbyOJWHl9N59+l8+vr6PP9+e7oir09fTt+ub/gx8xKkdCVh+jkvZIRSf698nPHHw+tf8KL/gy9QJcIjezwBpW18hlo8noF4G18gDe8X0LKNJ5Dq8Laj5G08A/vzYIUa4Bvw8H4J4xXg5vAlAwb5VGD1+AKNgnwm0GEDBgwCsPojeYKCYkAgSD5FtKysExjKQBCoQY2tpMXHULGnbZVgqqPsCRVykCUTAYsnMLTABoiQfR2qQAqyZITmjVO1W2OdUHqZOoGtlEHhjNDQExBqYH3zQvOVZgIMtGrSb74OzHEMSxIXgpUyikFGO7OJL9pBIfnCNStlEENJwD6trQBHDQZHRzeGHMi70GjRZocMgjZDko9Bcl9ZJzRoPktS4iOZv7w0hKBEQevoaalhWsnmgs+StN5HtggyHEnCwUO5z5lO0AQ5cBxhP/FCyGHQZEn00lBzeVAHI4iMhBrFYFn30tACFMVAoEMMFKe1jp1Pa7fUFkFxJEgUNI+tUq2fR9JoY6s0Qgv8YAT18tbWbwXrBBk7n0p46SEFGo6kYeHqMpSXa0ZabkLrDOzXin9mUD/CzaEi+dXW58FN6SgYi1x6H7rxXAoI7W6ONooJd+3YBq8GBDEp+EZjvQoDgnlY/NCyuScRwSa/70y5AgZq0juB59wbwzqhjaNd4g3u5Fp7P1/Ha3/dkqO+4RZ+mOu5j7CNK+LdpX5Uqj38+eB4ORyP8/fK7f/jB4otzR835fEX);fillColor=none;strokeColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-19.40000000000009" y="51.90000000000009" width="19.6" height="12.15" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
