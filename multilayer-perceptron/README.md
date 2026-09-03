@@ -65,12 +65,6 @@ and accuracy on the given set, plus a few sample predictions.
   only numpy (linear algebra), pandas (CSV I/O) and matplotlib (plotting),
   which the subject explicitly allows.
 
-## Be ready to explain
-
-The subject grades your understanding of **feedforward**, **backpropagation**,
-and **gradient descent** verbally — make sure you can walk through `layers.py`
-and `network.py` line by line during the defense.
-
 ## Sources
 
 1. [Concept](https://hediyetapan.medium.com/understanding-the-mathematics-behind-multilayer-perceptrons-mlps-0de46159fe5a)
