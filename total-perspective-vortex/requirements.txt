@@ -1,0 +1,7 @@
+flake8==7.3.0
+pandas==3.0.5
+joblib==1.6.0
+scikit-learn==1.9.0
+mne==1.12.1
+PyWavelets==1.8.0
+numpy==2.5.3
